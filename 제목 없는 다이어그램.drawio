@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-05-21T15:33:24.380Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" version="21.3.2" etag="9LV5o68QFnI38n68r9WA" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-21T15:35:15.124Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="3d9Uvf_4i-60pI4VhI-2" version="21.3.2" type="github">
   <diagram name="페이지-1" id="2TTsLSDMo29BazJem8WV">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8ldgtPWpIAdvo0hesViz-1" value="&lt;h1&gt;사용자 상호작용&lt;/h1&gt;&lt;p&gt;주요 기능과 사용자 상호작용과 관련된 정리된 모듈&lt;/p&gt;&lt;p&gt;모듈 넘버 : 1&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="190" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
