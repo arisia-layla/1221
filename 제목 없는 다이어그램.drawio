@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-21T16:05:33.738Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="EolQKEzIFN8wlyuEvuL_" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-21T16:16:47.882Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="y5Uh--wmGq85CZPIL-3D" version="21.3.2" type="github">
   <diagram name="페이지-1" id="2TTsLSDMo29BazJem8WV">
-    <mxGraphModel dx="1877" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3563" dy="984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -156,13 +156,148 @@
           <mxGeometry x="377.5" y="1050" width="155" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8ldgtPWpIAdvo0hesViz-66" value="&lt;h1&gt;기상타임 계산 모듈&lt;/h1&gt;&lt;p&gt;Function 모듈의 JS 기능을 활용하여 기상할 시간을 예측합니다&lt;/p&gt;&lt;p&gt;성인의 평균사이클 수면시간 (90m) * 수면 사이클로 약 7.5 평균값을 계산하여 시 분, AM,PM 계산 후 반환&lt;/p&gt;&lt;p&gt;수면에 드는 시간을 계산 ( 15분 추가 )&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="640" width="220" height="160" as="geometry" />
+          <mxGeometry x="-200" y="480" width="220" height="160" as="geometry" />
         </mxCell>
         <mxCell id="8ldgtPWpIAdvo0hesViz-69" value="잠 카드 5개 불러오기" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-220" y="390" width="140" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ldgtPWpIAdvo0hesViz-71" target="8ldgtPWpIAdvo0hesViz-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8ldgtPWpIAdvo0hesViz-71" value="적정 수면시간 예측모델" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-570" y="520" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ldgtPWpIAdvo0hesViz-72" target="8ldgtPWpIAdvo0hesViz-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-72" value="사용자 기상시간 버튼 보여주기" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ldgtPWpIAdvo0hesViz-74" target="8ldgtPWpIAdvo0hesViz-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-74" value="if time&lt;br&gt;==&lt;br&gt;n : t" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="740" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-76" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="870" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-77" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="960" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-78" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1020" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-79" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ldgtPWpIAdvo0hesViz-80" target="8ldgtPWpIAdvo0hesViz-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-80" value="Function 함수 호출" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ldgtPWpIAdvo0hesViz-82" target="8ldgtPWpIAdvo0hesViz-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-82" value="적정 사이클 ( 3,4,5,6 ) 시간 구하기" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-515" y="890" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ldgtPWpIAdvo0hesViz-84" target="8ldgtPWpIAdvo0hesViz-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ldgtPWpIAdvo0hesViz-84" target="8ldgtPWpIAdvo0hesViz-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-84" value="if cycle&lt;br&gt;== 3" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="880" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ldgtPWpIAdvo0hesViz-86" target="8ldgtPWpIAdvo0hesViz-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ldgtPWpIAdvo0hesViz-86" target="8ldgtPWpIAdvo0hesViz-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-86" value="if cycle&lt;br&gt;== 4" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="1040" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ldgtPWpIAdvo0hesViz-88" target="8ldgtPWpIAdvo0hesViz-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ldgtPWpIAdvo0hesViz-88" target="8ldgtPWpIAdvo0hesViz-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-88" value="if cycle&lt;br&gt;== 5" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="1200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ldgtPWpIAdvo0hesViz-90" target="8ldgtPWpIAdvo0hesViz-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-90" value="if cycle&lt;br&gt;== 6" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="1360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.127;entryY=-0.076;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8ldgtPWpIAdvo0hesViz-92" target="8ldgtPWpIAdvo0hesViz-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-92" value="기상예측시간(분 변환) - ( 90 * 3 ) + 15" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="890" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="8ldgtPWpIAdvo0hesViz-94" target="8ldgtPWpIAdvo0hesViz-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-94" value="기상예측시간(분 변환) - ( 90 * 4 ) + 15" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="1050" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8ldgtPWpIAdvo0hesViz-96" target="8ldgtPWpIAdvo0hesViz-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-96" value="기상예측시간(분 변환) - ( 90 * 5 ) + 15" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="1210" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.182;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8ldgtPWpIAdvo0hesViz-98" target="8ldgtPWpIAdvo0hesViz-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-98" value="기상예측시간(분 변환) - ( 90 * 5 ) + 15" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="1370" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ldgtPWpIAdvo0hesViz-100" target="8ldgtPWpIAdvo0hesViz-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-100" value="계산결과 저장&lt;br&gt;value = receiveTime" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-112" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ldgtPWpIAdvo0hesViz-105" target="8ldgtPWpIAdvo0hesViz-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-105" value="함수처리&lt;br&gt;시간 : parseInt(receiveTime / 60)&lt;br&gt;분 : receiveTime % 60" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1210" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-107" value="return 시간, 분, Decode" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-109" value="&lt;h1&gt;수면해야 할 시간 예측 모듈&lt;/h1&gt;&lt;p&gt;특정 기상 시간에 일어나려면 수면해야 할 시간 예측&lt;/p&gt;&lt;p&gt;성인의 평균 사이클 타임 ( 90m ) * cycleValue&lt;/p&gt;&lt;p&gt;기상시간 - 역 예측&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-960" y="425" width="310" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ldgtPWpIAdvo0hesViz-111" target="8ldgtPWpIAdvo0hesViz-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ldgtPWpIAdvo0hesViz-111" target="8ldgtPWpIAdvo0hesViz-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-111" value="if time &amp;gt;= 12" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="427.5" y="1340" width="115" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="8ldgtPWpIAdvo0hesViz-113" target="8ldgtPWpIAdvo0hesViz-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-113" value="Decode = &quot;PM&quot;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8ldgtPWpIAdvo0hesViz-115" target="8ldgtPWpIAdvo0hesViz-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-115" value="Decode = &quot;AM&quot;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="425" y="1510" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
