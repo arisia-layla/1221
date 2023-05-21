@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-21T15:59:39.964Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="ffdAfKbqPlkTG6gt26ku" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-21T16:00:38.697Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="gZoLgzP7F8vKXAFym_s3" version="21.3.2" type="github">
   <diagram name="페이지-1" id="2TTsLSDMo29BazJem8WV">
     <mxGraphModel dx="875" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -103,8 +103,14 @@
         <mxCell id="8ldgtPWpIAdvo0hesViz-47" value="변수 tival = AM" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="55" y="760" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ldgtPWpIAdvo0hesViz-49" target="8ldgtPWpIAdvo0hesViz-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8ldgtPWpIAdvo0hesViz-49" value="함수처리 ( minTime(전체분) + ( 90 * (cycle_level)))" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="222.5" y="750" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-52" value="calcTime 시/분 변환&lt;br&gt;시간 : parseInt(전체분 / 60)&lt;br&gt;분 :전체분 % 60" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="750" width="165" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
