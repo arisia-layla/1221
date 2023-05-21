@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-21T15:53:33.401Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="FoXjWRmm42jGVsR8OD89" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-21T15:59:28.761Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="s990LlbpzqPpUUg2YnB6" version="21.3.2" type="github">
   <diagram name="페이지-1" id="2TTsLSDMo29BazJem8WV">
     <mxGraphModel dx="875" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,7 +14,7 @@
           <mxGeometry x="50" y="260" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8ldgtPWpIAdvo0hesViz-11" value="List - 1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="334" y="90" width="160" height="120" as="geometry" />
+          <mxGeometry x="70" y="370" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="8ldgtPWpIAdvo0hesViz-12" value="잠은 왜 자야 하는가?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="8ldgtPWpIAdvo0hesViz-11">
           <mxGeometry y="30" width="160" height="30" as="geometry" />
@@ -26,7 +26,7 @@
           <mxGeometry y="90" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8ldgtPWpIAdvo0hesViz-15" value="List - 2" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="250" width="140" height="90" as="geometry" />
+          <mxGeometry x="400" y="400" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="8ldgtPWpIAdvo0hesViz-16" value="수면 퀴즈 응시하기" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="8ldgtPWpIAdvo0hesViz-15">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
@@ -35,10 +35,20 @@
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8ldgtPWpIAdvo0hesViz-19" value="Quick-Button" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="370" width="140" height="90" as="geometry" />
+          <mxGeometry x="344" y="80" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="8ldgtPWpIAdvo0hesViz-19" source="8ldgtPWpIAdvo0hesViz-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="226" y="45" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="8ldgtPWpIAdvo0hesViz-20" value="빨리 잠드는 비밀" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="8ldgtPWpIAdvo0hesViz-19">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="8ldgtPWpIAdvo0hesViz-19" source="8ldgtPWpIAdvo0hesViz-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="226" y="75" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="8ldgtPWpIAdvo0hesViz-21" value="도움말 &amp;amp; 원리" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="8ldgtPWpIAdvo0hesViz-19">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
@@ -54,6 +64,47 @@
         </mxCell>
         <mxCell id="8ldgtPWpIAdvo0hesViz-24" value="버튼 보여주기" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-35" value="빨리 잠드는 비밀 카드 보여주기" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="112.5" width="190" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-36" value="도움말 &amp;amp; 원리 카드 불러오기" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="145" width="190" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ldgtPWpIAdvo0hesViz-42" target="8ldgtPWpIAdvo0hesViz-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-42" value="Function 모듈 불러오기" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="530" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8ldgtPWpIAdvo0hesViz-14" target="8ldgtPWpIAdvo0hesViz-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="560.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ldgtPWpIAdvo0hesViz-43" target="8ldgtPWpIAdvo0hesViz-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ldgtPWpIAdvo0hesViz-43" target="8ldgtPWpIAdvo0hesViz-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-43" value="time &amp;gt; 12" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="72.5" y="630" width="85" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.305;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8ldgtPWpIAdvo0hesViz-45" target="8ldgtPWpIAdvo0hesViz-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-45" value="변수 tival = PM" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="222.5" y="650" width="107.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ldgtPWpIAdvo0hesViz-47" target="8ldgtPWpIAdvo0hesViz-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-47" value="변수 tival = AM" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="55" y="760" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8ldgtPWpIAdvo0hesViz-49" value="함수처리 ( minTime(전체분) + ( 90 * (cycle_level)))" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="255" y="750" width="155" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
