@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-21T16:05:17.061Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="FtO0DbEVBAvzZsWnpPc3" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-21T16:05:33.738Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="EolQKEzIFN8wlyuEvuL_" version="21.3.2" type="github">
   <diagram name="페이지-1" id="2TTsLSDMo29BazJem8WV">
-    <mxGraphModel dx="1551" dy="373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1877" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -155,7 +155,7 @@
         <mxCell id="8ldgtPWpIAdvo0hesViz-62" value="함수처리 ( minTime(전체분) + ( 90 * (n))) + 15" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="377.5" y="1050" width="155" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8ldgtPWpIAdvo0hesViz-66" value="&lt;h1&gt;기상타임 계산 모듈&lt;/h1&gt;&lt;p&gt;Function 모듈의 JS 기능을 활용하여 기상할 시간을 예측합니다&lt;/p&gt;&lt;p&gt;성인의 평균사이클 수면시간 (90m) * 수면 사이클로 약 7.5 평균값을 계산하여 시 분, AM,PM 계산 후 반환&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="8ldgtPWpIAdvo0hesViz-66" value="&lt;h1&gt;기상타임 계산 모듈&lt;/h1&gt;&lt;p&gt;Function 모듈의 JS 기능을 활용하여 기상할 시간을 예측합니다&lt;/p&gt;&lt;p&gt;성인의 평균사이클 수면시간 (90m) * 수면 사이클로 약 7.5 평균값을 계산하여 시 분, AM,PM 계산 후 반환&lt;/p&gt;&lt;p&gt;수면에 드는 시간을 계산 ( 15분 추가 )&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-190" y="640" width="220" height="160" as="geometry" />
         </mxCell>
         <mxCell id="8ldgtPWpIAdvo0hesViz-69" value="잠 카드 5개 불러오기" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
